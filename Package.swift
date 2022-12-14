@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "GoogleHelperArchives",
+    name: "Protobuf",
     products: [
         .library(
-            name: "GoogleHelperArchives",
-            targets: ["GoogleHelperArchives"]),
+            name: "Protobuf",
+            targets: ["Protobuf"]),
     ],
     targets: [
         .binaryTarget(
