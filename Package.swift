@@ -11,8 +11,6 @@ let package = Package(
             targets: ["GoogleHelperArchives"]),
     ],
     targets: [
-        .target(
-            name: "GoogleHelperArchives",
-            dependencies: [])
+        .binaryTarget(name: "Protobuf", path: "Protobuf/libProtobuf.a")
     ]
 )
