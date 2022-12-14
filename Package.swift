@@ -11,6 +11,9 @@ let package = Package(
             targets: ["GoogleHelperArchives"]),
     ],
     targets: [
-        .binaryTarget(name: "Protobuf", path: "Protobuf/libProtobuf.a")
+        .binaryTarget(
+            name: "Protobuf",
+            url: "https://github.com/Userstree/GoogleHelperArchives/releases/download/1.0.0/libProtobuf.a.zip",
+            checksum: "a52feb387c54412a4b9bc52b02c3ab90348747c52677414e6f386e06dba3930d")
     ]
 )
